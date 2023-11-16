@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "012FF770-0BD3-43B4-A535-6EA560E6CC15",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "Calculator",
+          "name" : "Calculator"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "CalculatorTests",
+        "name" : "CalculatorTests"
+      }
+    }
+  ],
+  "version" : 1
+}
